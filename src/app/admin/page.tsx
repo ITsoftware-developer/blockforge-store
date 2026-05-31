@@ -34,7 +34,8 @@ export default function AdminPage() {
         <p>
           Add Supabase Auth protection to this route, paste the SQL schema into
           Supabase, create a Stripe product and price, then set the environment
-          variables from `.env.example`.
+          variables from `.env.example`. The public contact handle is configured
+          in `src/lib/product.ts`.
         </p>
       </section>
     </main>

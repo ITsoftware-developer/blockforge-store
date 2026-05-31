@@ -11,6 +11,7 @@ export function Header() {
         <Link href="/mod">The Mod</Link>
         <Link href="/pricing">Buy</Link>
         <Link href="/install">Install</Link>
+        <Link href="/contact">Discord</Link>
         <Link href="/admin">Admin</Link>
       </nav>
     </header>

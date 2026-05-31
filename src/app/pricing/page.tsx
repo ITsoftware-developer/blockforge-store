@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { product } from "@/lib/product";
 
 export default function PricingPage() {
@@ -39,6 +40,9 @@ export default function PricingPage() {
             The checkout button becomes live after you add your Stripe and
             Supabase environment keys. Do not upload paid jars into `public`.
           </p>
+          <Link className="text-link" href="/contact">
+            Questions? Contact BlockForge on Discord →
+          </Link>
         </aside>
       </section>
 
